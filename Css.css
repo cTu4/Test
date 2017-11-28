@@ -1,0 +1,140 @@
+body
+{
+	background:#a2e8dc url(images/background.png);
+	margin:0;
+	padding:0;
+	font: 16px/24px Arial, sans-serif;
+}
+a
+{
+	text-decoration:none;
+}
+.miniinfo
+{
+	float:right;
+}
+.header
+{
+	background:url(images/backheader1.jpg);
+	width:100%;
+	height:100px;
+}
+.mid
+{
+	width:900px;
+	margin:0 auto;
+}
+.topmenu
+{
+	font: 20px/24px Arial, sans-serif;
+	float:right;
+	padding-top:20px;
+	padding-right: 60px;
+	height:100px;
+	line-height:100px;
+}
+
+.topmenu a
+{
+	margin: 0 15px 0 0;
+	color:#000a73;
+}
+.topmenu a:hover
+{
+	transform: rotate(15deg);
+	font-size: 22px;
+	text-align:center;
+	color:red;
+}
+
+.info
+{
+	margin-top:100px;
+}
+.foto img
+{
+	float:right;
+	height: 520px;
+	border-radius:30px;
+}
+
+.foto1 img
+{
+	float:left;
+	border-radius:30px;
+}
+
+.text
+{
+	padding: 20px;
+	float:left;
+	width: 500px;
+	background:rgba(162, 232, 220, 0.7);
+	border-radius:20px;
+	font-weight:600;
+}
+
+.text2
+{
+	font-size:20px;
+	padding: 0px 20px 20px 20px;
+	float:right;
+	width: 500px;
+	background:rgba(255, 200, 255, 0.7);
+	border-radius:20px;
+	font-weight:600;
+}
+.text2 ul li
+{
+	color:#000;
+	margin: 50px 0 0 0px;
+}
+.text2 ul li a
+{
+	color:#000A73;
+}
+.text2 ul li a:hover
+{
+	color:#E60101;
+}
+
+.text3
+{
+	margin-top:150px;
+	padding: 20px;
+	float:left;
+	width: 250px;
+	background:rgba(162, 232, 220, 0.5);
+	border-radius:20px;
+	font-weight:600;
+}
+.footer
+{
+	background:url(images/backheader1.jpg);
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	height: 50px;	
+}
+
+.text1
+{
+	float: right;
+	color:#000a73;
+}
+
+.material
+{
+	background: rgba(140,255,155,0.5);
+	font-size: 20px;
+	border-radius:20px;	
+}
+.material li
+{
+	padding:20px;
+}
+
+.map
+{
+	float:right;
+}
