@@ -20,9 +20,9 @@ header{
     height: 20%;
 }
 .phone{
-    font-size: larger;
+    font-size: medium;
     color:  #000;
-    flex-basis: 250px;
+    flex-basis: 200px;
     align-self: center;
     margin: 10px 0;
 }
@@ -151,7 +151,7 @@ footer{
 }
 .foot{
     color:  #000;
-    font-size: larger;
+    font-size: medium;
     text-align: right;
     margin: 0 20px;
     padding: 30px 0;
