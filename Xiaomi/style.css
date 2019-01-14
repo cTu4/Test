@@ -52,7 +52,7 @@ li{
     .toggle{
         display:none;
         position: absolute;
-        background: darkgray;
+        background: aliceblue;
         width: 100%;
         z-index: 1000;
     }
@@ -74,6 +74,7 @@ a{
 }
 
 input[type=button]{
+    cursor: pointer;
     border-color: #0E97DD;
     background:#0E97DD;
     border-radius: 6px;
