@@ -1,0 +1,52 @@
+body{
+    max-width: 1240px;
+}
+.kek{
+    cursor: pointer;
+}
+.menu{
+}
+.menu li{
+    list-style-type: none;
+    float:none;
+    margin: 0 20px;
+}
+.wrapper{
+    background: #0E97DD;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item{
+    margin: 10px;
+    flex-basis: 100px;
+    width: calc(8.3333% - 20px);
+    background: #F15933;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    margin: 10px 0;
+}
+img{
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+input{
+    margin: 10px 0;
+    background: #F15933;
+    border-color: #F15933;
+}
+
+
+
