@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    background: aliceblue;
+}
+header{
+    background: url(image/header.jpg);
+    margin: 0;
+    max-width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo{
+    padding: 20px 20px 0 20px;
+    min-width: 50%;
+}
+.phone{
+    font-size: larger;
+    color: #F15933;
+    margin: 30px;
+    flex-basis: 250px;
+    align-self: center;
+    margin: 10px 0;
+}
+.menu{
+    color: #F15933;
+    font-size: larger;
+    display: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.toggle{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+@media screen and (max-width: 560px){
+    .menu{
+        display: flex;
+        align-self: center;
+    }
+
+    .toggle{
+        display:none;
+        position: absolute;
+        background: darkgray;
+        width: 100%;
+        z-index: 1000;
+    }
+    li{
+        text-align: center;
+    }
+
+    .wrapp{
+        position: relative;
+    }
+
+
+}
+
+a{
+    font-size: larger;
+    color: #F15933;
+    margin: 0 20px;
+}
+
+input[type=button]{
+    border-color: #0E97DD;
+    background:#0E97DD;
+    border-radius: 6px;
+    width: 80%;
+    padding: 5px 0;
+    margin: 5%;
+}
+h1{
+    text-align: center;
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item{
+    margin: 20px 10px;
+    flex-basis: 200px;
+    background: darkgrey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(8.333% - 20px);
+}
+.title{
+    text-align: center;
+    margin: 10px 0;
+}
+.phone{
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.relation{
+    width: 100%;
+    position: relative;
+}
+.relation_ratio{
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+}
+iframe{
+    border:none;
+
+}
+
+.relation_content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
