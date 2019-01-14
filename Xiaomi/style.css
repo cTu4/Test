@@ -20,7 +20,6 @@ header{
 .phone{
     font-size: larger;
     color: #F15933;
-    margin: 30px;
     flex-basis: 250px;
     align-self: center;
     margin: 10px 0;
@@ -144,8 +143,10 @@ iframe{
 footer{
     background: url("image/header.jpg");
     width: 100%;
-
-
+}
+.foot{
+    color: #F15933;
+    font-size: larger;
 }
 
 
