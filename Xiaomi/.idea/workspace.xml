@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f6fd8b2-861f-4e7e-a464-1b52ad0c66a9" name="Default Changelist" comment="" />
+    <list default="true" id="8f6fd8b2-861f-4e7e-a464-1b52ad0c66a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/Index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -94,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547466849306</updated>
-      <workItem from="1547466850581" duration="4303000" />
+      <workItem from="1547466850581" duration="4577000" />
     </task>
     <task id="LOCAL-00001" summary="footer">
       <created>1547466958334</created>
@@ -236,11 +238,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547471380822</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="no icon">
+      <created>1547471547589</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1547471547589</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4303000" />
+    <option name="totallyTimeSpent" value="4577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -286,7 +295,8 @@
     <MESSAGE value="x-icon" />
     <MESSAGE value="fffff" />
     <MESSAGE value="tg" />
-    <option name="LAST_COMMIT_MESSAGE" value="tg" />
+    <MESSAGE value="no icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="no icon" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style.css">
@@ -299,7 +309,7 @@
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
         </state>
       </provider>
     </entry>
