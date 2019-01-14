@@ -1,9 +1,10 @@
 body{
     margin: 0;
     background: aliceblue;
+    font-family: 'Roboto', sans-serif;
 }
 header{
-    background: url(image/header.jpg);
+    background: darkgray;
     margin: 0;
     max-width: 100%;
 }
@@ -14,18 +15,19 @@ header{
     justify-content: space-between;
 }
 .logo{
-    padding: 20px 20px 0 20px;
-    min-width: 50%;
+    margin: 20px;
+    width: 30%;
+    height: 20%;
 }
 .phone{
     font-size: larger;
-    color: #F15933;
+    color:  #000;
     flex-basis: 250px;
     align-self: center;
     margin: 10px 0;
 }
 .menu{
-    color: #F15933;
+    color: #000;
     font-size: larger;
     display: none;
     margin: 5px;
@@ -68,15 +70,16 @@ li{
 }
 
 a{
+    text-decoration: none;
     font-size: larger;
-    color: #F15933;
+    color:  #000;
     margin: 0 20px;
 }
 
 input[type=button]{
     cursor: pointer;
-    border-color: #0E97DD;
-    background:#0E97DD;
+    border: none;
+    background: aliceblue;
     border-radius: 6px;
     width: 80%;
     padding: 5px 0;
@@ -97,8 +100,8 @@ h1{
 .item{
     margin: 20px 10px;
     flex-basis: 200px;
-    background: darkgrey;
-    border-radius: 20px;
+    background: rgba(169,169,169,0.5);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -110,7 +113,7 @@ h1{
     margin: 10px 0;
 }
 .phone{
-    border-radius: 10px;
+    border-radius: 5px;
     width: 80%;
     height: 80%;
 }
@@ -143,11 +146,11 @@ iframe{
 }
 
 footer{
-    background: url("image/header.jpg");
+    background: darkgray;
     width: 100%;
 }
 .foot{
-    color: #F15933;
+    color:  #000;
     font-size: larger;
     text-align: right;
     margin: 0 20px;
