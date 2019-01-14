@@ -54,7 +54,7 @@ li{
     .toggle{
         display:none;
         position: absolute;
-        background: aliceblue;
+        background: rgba(169,169,169,1);
         width: 100%;
         z-index: 1000;
     }
